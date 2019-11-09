@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="FromSpinnerItems">
+    <item>Marathahalli</item>
+        <item>Silkboard</item>
+        <item>Tinfactory</item>
+        <item>Hebbal</item>
+        <item>Banashankari</item>
+        <item>IndiraNagar</item>
+        <item>KRPuram</item>
+    </string-array>
+    <string-array name="ToSpinnerItems">
+        <item>Marathahalli</item>
+        <item>Silkboard</item>
+        <item>Tinfactory</item>
+        <item>Hebbal</item>
+        <item>Banashankari</item>
+        <item>IndiraNagar</item>
+        <item>KRPuram</item>
+    </string-array>
+</resources>

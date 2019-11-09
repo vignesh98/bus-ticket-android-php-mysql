@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BusTicket</string>
+    <string name="neturl">localhost:8080></string>
+</resources>

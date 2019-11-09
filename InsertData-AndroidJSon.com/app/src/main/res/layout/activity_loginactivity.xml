@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/actionroad"
+    tools:context=".loginactivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="325dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Enter Login Details"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/usernamelogin"
+        android:layout_width="329dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/passwordlogin"
+        android:layout_width="329dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="154dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/passwordlogin"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="81dp"
+        android:text="Login" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/buslogo" />
+</RelativeLayout>
